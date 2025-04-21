@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <!-- Segurança e boas práticas -->
+  <!-- Metatags de segurança e boas práticas -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
   <meta name="referrer" content="no-referrer" />
@@ -11,7 +11,7 @@
   <meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains; preload">
   <meta http-equiv="Cross-Origin-Opener-Policy" content="same-origin">
 
-  <!-- SEO e redes sociais -->
+  <!-- SEO e Redes Sociais -->
   <title>Salvador Loterias - A Banca de Apostas Mais Confiável e Rentável</title>
   <meta name="description" content="A Salvador Loterias é a melhor plataforma de apostas com segurança, pagamentos instantâneos via Pix e suporte 24/7. Jogue e multiplique seus ganhos!" />
   <meta name="keywords" content="salvador loterias, banca de apostas, apostas online, pix imediato, suporte 24h, cassino, futebol, esportes, palpites, ganhar dinheiro" />
@@ -21,7 +21,7 @@
   <!-- Open Graph / Facebook -->
   <meta property="og:title" content="Salvador Loterias - A Banca de Apostas Mais Confiável e Rentável" />
   <meta property="og:description" content="Ganhe dinheiro com apostas seguras na Salvador Loterias. Pix rápido e suporte 24h. Jogue agora e maximize seus lucros!" />
-  <meta property="og:image" content="https://trivo-assets.pages.dev/images/paraiso2.png" />
+  <meta property="og:image" content="https://trivo-assets.pages.dev/images/paraiso2.webp" />
   <meta property="og:url" content="https://www.salvadorloterias.com" />
   <meta property="og:type" content="website" />
 
@@ -29,11 +29,11 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Salvador Loterias - A Banca de Apostas Mais Confiável e Rentável" />
   <meta name="twitter:description" content="Aposte com segurança e receba via Pix na hora. Acesse agora a Salvador Loterias!" />
-  <meta name="twitter:image" content="https://trivo-assets.pages.dev/images/paraiso2.png" />
+  <meta name="twitter:image" content="https://trivo-assets.pages.dev/images/paraiso2.webp" />
 
   <!-- Favicon -->
-  <link rel="icon" href="https://trivo-assets.pages.dev/images/paraiso2.png" type="image/png">
-  <link rel="shortcut icon" href="https://trivo-assets.pages.dev/images/paraiso2.png" type="image/png">
+  <link rel="icon" href="https://trivo-assets.pages.dev/images/paraiso2.webp" type="image/webp">
+  <link rel="shortcut icon" href="https://trivo-assets.pages.dev/images/paraiso2.webp" type="image/webp">
   <link rel="manifest" href="manifest.json" />
   <link rel="canonical" href="https://www.salvadorloterias.com" />
 
@@ -46,29 +46,14 @@
       background: #000;
       font-family: Arial, sans-serif;
       color: #fff;
-    }
-
-    body {
-      font-size: 16px;
-      line-height: 1.6;
-    }
-
-    @media (max-width: 480px) {
-      body {
-        font-size: 14px;
-      }
-    }
-
-    .container {
       display: flex;
       flex-direction: column;
-      height: 100%;
-      width: 100%;
     }
 
     .iframe-container {
       flex: 1;
       width: 100%;
+      overflow: hidden;
     }
 
     iframe {
@@ -76,6 +61,7 @@
       height: 100%;
       border: none;
       loading: lazy;
+      display: block;
     }
 
     .buttons {
@@ -118,29 +104,6 @@
       border-radius: 50%;
     }
 
-    #notificacao-pod {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background: #222;
-      color: #fff;
-      padding: 15px 20px;
-      border-radius: 12px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.3);
-      z-index: 9999;
-      display: none;
-    }
-
-    #notificacao-pod button {
-      margin-top: 10px;
-      background: #4CAF50;
-      color: white;
-      border: none;
-      padding: 8px 12px;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-
     #install-banner {
       display: none;
       position: fixed;
@@ -168,25 +131,18 @@
   </style>
 </head>
 <body>
-  <div class="container">
-    <div class="iframe-container">
-      <iframe allow='clipboard-read; clipboard-write' frameborder='0' height='95%' id='embeddedIframe' loading='lazy' sandbox='allow-scripts allow-same-origin' src='https://app.paraisoloterias.com.br/pr/wBHQUmZE' title='Conteúdo interativo do Acertos Club' width='100%'></iframe>
-    </div>
-    <div class="buttons">
-      <a class="button" href="https://github.com/lucianodelira/app.acertos.club/raw/f389362c4a226e7a4d56f474d1346e8ce3ad50d4/ACERTOSCLUB.apk" aria-label="Baixar APK">📲 .APK</a>
-      <a class="button banca" href="https://www.acertosclub.com" target="_blank" rel="noopener noreferrer" aria-label="Ir para a Banca">
-        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrejyS8jFb4iA7-shAFfeWG9d-r8vleMloL60vXIZRaps3j1ZjjtAaDpkryhG0pLdy8Q4W-Bny1G5fDAxGuKDRXs-ytlypuBQ9UGsrXDD14QMORXBDbO1zkJ9OcbKh7n7YDp-ZunghfP3q4ucZFN62kLPA149uRiIWw8xy0uDuq_Xg6xS_9hZTBCMFh3sb/s320/IMG-20240927-WA0455__2_-removebg-removebg-preview%20(1).png" alt="Logo Parceiro" />
-        Parceiro
-      </a>
-      <a class="button tutorial" href="https://www.salvadorloterias.com" target="_blank" rel="noopener noreferrer" aria-label="Ir para o Tutorial">📘 Tutorial</a>
-      <a class="button" style="background: #004d00;" href="https://wa.me/5583993209139?text=Ol%C3%A1%20Salvador%20Loterias%2C%20preciso%20de%20ajuda%20!" target="_blank" rel="noopener noreferrer" aria-label="Suporte via WhatsApp">💬 Suporte</a>
-    </div>
+  <div class="iframe-container">
+    <iframe src="https://app.paraisoloterias.com.br/pr/wBHQUmZE" title="Conteúdo interativo do Acertos Club"></iframe>
   </div>
 
-  <div id="notificacao-pod">
-    Ativar notificações?
-    <br />
-    <button onclick="ativarPermissao()">Ativar Permissão</button>
+  <div class="buttons">
+    <a class="button" href="https://github.com/lucianodelira/app.acertos.club/raw/f389362c4a226e7a4d56f474d1346e8ce3ad50d4/ACERTOSCLUB.apk" aria-label="Baixar APK">📲 .APK</a>
+    <a class="button banca" href="https://www.acertosclub.com" target="_blank" rel="noopener noreferrer" aria-label="Ir para a Banca">
+      <img src="https://trivo-assets.pages.dev/images/paraiso2.webp" alt="Logo Parceiro" />
+      Parceiro
+    </a>
+    <a class="button tutorial" href="https://www.salvadorloterias.com" target="_blank" rel="noopener noreferrer" aria-label="Ir para o Tutorial">📘 Tutorial</a>
+    <a class="button" style="background: #004d00;" href="https://wa.me/5583993209139?text=Ol%C3%A1%20Salvador%20Loterias%2C%20preciso%20de%20ajuda%20!" target="_blank" rel="noopener noreferrer" aria-label="Suporte via WhatsApp">💬 Suporte</a>
   </div>
 
   <div id="install-banner">
@@ -195,6 +151,8 @@
   </div>
 
   <script>
+    let installPromptEvent;
+
     window.addEventListener("beforeinstallprompt", function(e) {
       e.preventDefault();
       document.getElementById("install-banner").style.display = "block";
@@ -212,14 +170,6 @@
           }
         });
       }
-    }
-
-    function ativarPermissao() {
-      Notification.requestPermission().then(function(permission) {
-        if (permission === "granted") {
-          document.getElementById("notificacao-pod").style.display = "none";
-        }
-      });
     }
   </script>
 </body>
